@@ -1,0 +1,1 @@
+public class ArraysOne {	public static void main(String[] args) {		int[] second = new int[10];		int i = 0;		for (i = 0; i < second.length; i++) {			second[i] = -113;		}				for (i = 0; i < second.length; i++) {			System.out.println("Slot " + i + " contains " + second[i]);		}	}}

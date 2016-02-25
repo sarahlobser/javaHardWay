@@ -1,0 +1,1 @@
+public class ArraysZero {	public static void main(String[] args) {		int[] first = {-113, -113, -113, -113, -113, -113, -113, -113, -113, -113};		System.out.println("Slot 0 contains "+first[0]);		System.out.println("Slot 9 contains "+first[9]);	}}

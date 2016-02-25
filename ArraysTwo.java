@@ -1,0 +1,1 @@
+public class ArraysTwo {	public static void main(String[] args) {		int[] second = new int[10];		int i = 0;		for (i = 0; i < second.length; i++) {			second[i] = (int)(Math.random()*100+1);		}				for (i = 0; i < second.length; i++) {			System.out.println("Slot " + i + " contains " + second[i]);		}	}}

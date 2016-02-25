@@ -1,0 +1,1 @@
+public class ArraysThree {	public static void main(String[] args) {		int[] third = new int[1000];		int i = 0;		for (i = 0; i < third.length; i++) {			third[i] = (int)(Math.random()*90+10);		}				for (i = 0; i < third.length; i++) {			System.out.print(third[i] + "  ");		}	}}
